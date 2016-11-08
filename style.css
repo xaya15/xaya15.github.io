@@ -705,10 +705,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/pexels-photo-131667.jpeg");
 }
 .bg-pexels-photo-131667{
-	background-image:url('img/pexels-photo-131667.jpeg');
+	background-image:url("img/pexels-photo-131667.jpeg");
 }
 .bg-forrest{
-	background-image:url('img/forrest.jpg');
+	background-image:url("img/forrest.jpg");
 }
 
 
