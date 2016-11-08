@@ -311,6 +311,16 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
+/* = Sticky Nav
+-------------------------------------------------------------- */
+
+.sticky-nav.sticky{
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
+}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -350,18 +360,6 @@ button{
 	outline: none!important;
 }
 
-.btn-wire{
-	background:transparent!important;
-	border:2px solid transparent;
-}
-.btn-wire:hover{
-	background:transparent!important;
-	border:2px solid transparent;
-}
-.btn-xl{
-	padding: 16px 40px;
-	font-size: 28px;
-}
 .a-btn{
 	padding: 6px 10px 6px 0;
 	line-height: 1.42857143;
@@ -679,6 +677,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
+.bgc-midnight-green-eagle-green{
+	background-color:#005953;
+}
 .bgc-light-gray{
 	background-color:#D3D3D3;
 }
@@ -687,28 +688,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-deep-carrot-orange{
 	background-color:#F26924;
-}
-.bgc-midnight-green-eagle-green{
-	background-color:#005953;
-}
-/* Text colour styles */
-
-.tc-light-gray{
-	color:#D3D3D3!important;
-}
-/* Button colour styles */
-
-.wire-btn-light-gray{
-	color:#D3D3D3!important;
-	border-color:#D3D3D3!important;
-}
-/* Link colour styles */
-
-.ltc-light-gray{
-	color:#D3D3D3!important;
-}
-.ltc-light-gray:hover{
-	color:#a9a9a9!important;
 }
 /* Icon colour styles */
 
