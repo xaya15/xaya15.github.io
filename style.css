@@ -99,6 +99,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color: rgba(255,255,255,1);
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
 
 /* Dark theme */
 
